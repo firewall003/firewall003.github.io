@@ -5,99 +5,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>pw</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      margin: 0;
-      padding: 0;
-    }
-
-    #head1 {
-      background-color: #FD4B19;
-      color: #fff;
-      padding: 0;
-      display: grid;
-      grid-template-columns: auto auto auto auto;
-      justify-content: space-evenly;
-    }
-
-    div nav {
-      background-color: #fff;
-      padding: 5px 30px;
-      text-align: center;
-      word-spacing: 2em;
-      padding: 14px 16px;
-    }
-h1{text-align: center;}
-
-    #abt {
-        padding: 20px;
-      margin: 10px;
-      display: flex;
-      grid-template-columns: auto auto;
-      justify-content: center;
-      gap: 10px;
-      text-indent: 50px;
-    }
-
-
-    .container {
-      position: relative;
-      text-align: center;
-      color: white;
-      font-weight: bold;
-    }
-
-    .centered {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: #fff;
-    }
-    footer {
-      background-color: #FD4B19;
-      color: #fff;
-      padding: 10px 10px;
-
-      bottom: 0;
-      display: grid;
-      grid-template-columns: auto auto auto auto;
-      justify-content: space-evenly;
-    }
-    .footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
-}
-
-    footer div img {
-      text-align: center;
-      display: grid;
-    }
-
-    footer div p {
-      text-align: center;
-      display: grid;
-    }
-  </style>
+  <link rel="stylesheet" href="home.css">
 </head>
 
 <body>
-  <div id="head1">
-    <p></p>
-    <a href="home.html">
-    <img src="logo3.png" width="30px" length="30px">
-</a>
+  <div class="header">
     <nav>
-      <a href="home.html">Home</a> &nbsp;
-      <a href="about.html">About</a> &nbsp;
-      <a href="services.html">Services</a> &nbsp;
-      <a href="#">Contact</a> &nbsp;
+      <ul class="nav_links">
+        <a href="home.html"><img src="image/logo3.png" width="30px" length="30px" class="logo"></a>
+        <li><a href="home.html">Home</a> &nbsp;</li>
+      <li><a href="about.html">About</a> &nbsp;</li>
+      <li><a href="services.html">Services</a> &nbsp;</li>
+      <li><a href="contact.html">Contact</a>&nbsp;</li>
+    </ul>
     </nav>
   </div>
 <div>
@@ -108,11 +28,17 @@ h1{text-align: center;}
     <p>At Power Tool Services, we take immense pride in our unwavering commitment to quality and customer satisfaction. We meticulously choose the products we offer, making certain they adhere to our stringent standards for durability, performance, and value. Additionally, we provide expert repair and maintenance services to keep your tools in optimal condition for years to come.</p>
 <p>Thank you for choosing Power Tool Services. Regardless of whether you're a seasoned professional or a beginner, we are here to help you achieve success in your projects. Explore our website or visit our store today to discover why we are the preferred choice for all your tool requirements.</p>
 </div>
+<div class="hero-image">
+  <div class="hero-text">
+    <a href="home.html"><button>Home</button></a>
+  </div>
+  <img src="image/bg.jpg" width="1381px">
+</div>
 
   <footer class="footer">
     <div>
         <a href="home.html">
-      <img src="logo3.png" length="30px" width="30px">
+      <img src="image/logo3.png" length="30px" width="30px">
     
     </a></div>
     <div>
