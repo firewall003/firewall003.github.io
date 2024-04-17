@@ -17,7 +17,6 @@
 .logo {
     display: block;
     max-width: 40px;
-    height: 50px;
 }
 
 nav ul {
@@ -36,32 +35,42 @@ nav ul li {
     margin: 20px 40px;
 }
 
-.nav-links {
+.nav_links {
     padding: 20px 0 0 5px;
-    
+
 }
 
-.nav-links li {
+.nav_links li {
     display: inline-block;
-    margin:  60px;
     text-align: center;
 }
 
-.nav-links li a{
-
-    color:#AB8294;
+.nav_links li a {
+    text-decoration: none;
+    color: black;
     font-weight: bold;
     border-radius: 5px;
 }
+
+/*header ends*/
+
 .info {
     background-color: #FD4B19;
     margin: 10px;
     display: flex;
-    grid-template-columns: auto auto;
-    justify-content: center;
-    gap: 10px;
-    text-indent: 50px;
 }
+
+.info img {
+    opacity: 70%;
+}
+
+.info p {
+    margin: 50px;
+    color: #fff;
+
+}
+
+/*home information*/
 
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("photographer.jpg");
@@ -98,6 +107,8 @@ nav ul li {
     background-color: #555;
     color: white;
 }
+
+/*image displayed with button*/
 
 h1 {
     text-align: center;
@@ -138,7 +149,7 @@ h1 {
     padding: 40px;
     display: flex;
     justify-content: space-between;
-    border:#555 ;
+    border: #555;
 }
 
 .container {
@@ -154,6 +165,74 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
+}
+
+.page_name {
+    font-weight: bold;
+    text-align: center;
+}
+
+.prd_part1 {
+    border: 1px solid #555;
+    padding: 10px;
+    margin: 10px;
+}
+
+.prd_part1 h4 {
+    text-align: center;
+}
+
+.pro_info {
+    position: relative;
+}
+
+.pro_info img {
+    float: left;
+    margin-right: 10px;
+    width: 19%;
+}
+
+.pro_info p {
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 8%;
+    margin-bottom: 5%;
+}
+
+.pro_info button {
+    border: 2px solid orange;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: orange;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.items_1 {
+    margin: 30px;
+}
+
+.items {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items a {
+    text-decoration: none;
+}
+
+.items div {
+    border: 1px solid #555;
+    padding: 5px;
+}
+
+.items img {
+    max-width: 300px;
+    border: 1px solid #555;
+
 }
 
 #info {
